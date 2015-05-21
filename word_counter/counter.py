@@ -2,7 +2,8 @@
 
 
 def cleanse_word(word):
-    return word.lower().strip(',').strip('.').strip('\'').strip('"').strip('*')
+    # find regex for word
+    return word.lower().strip(',').strip('.').strip('\'').strip('"').strip('*').strip('?').strip('!').strip(';').strip(':')
 
 
 class WordCounter(object):
