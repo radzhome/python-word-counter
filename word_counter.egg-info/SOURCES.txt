@@ -1,0 +1,8 @@
+setup.py
+word_counter/__init__.py
+word_counter/counter.py
+word_counter.egg-info/PKG-INFO
+word_counter.egg-info/SOURCES.txt
+word_counter.egg-info/dependency_links.txt
+word_counter.egg-info/not-zip-safe
+word_counter.egg-info/top_level.txt
