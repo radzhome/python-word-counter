@@ -2,6 +2,22 @@
 A python word counter, counts words in a file
 
 
+### Objective ###
+
+Create a simple application that takes a UTF-8 plain-text file as input and outputs:
+
+* Total number of words in text file
+
+* Ten most common words and number of occurrences for each
+
+You application should be run from the command line using a single command. For example:
+
+    $	python	./word_counter.py	input.txt
+
+    $	sbt	"run	input.txt"
+
+Please include a test suite demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application.
+
 
 ### Usage ###
 
