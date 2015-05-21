@@ -23,9 +23,9 @@ class WordCounter(object):
                 self.word_freq.setdefault(word, 0)
                 self.word_freq[word] += 1
                 self.total_words += 1
-                self.insert_to_top(word)
+                self._insert_to_top(word)
 
-    def insert_to_top(self, w):
+    def _insert_to_top(self, w):
         if self.top_10:
             for index, item in enumerate(self.top_10):
                 if self.word_freq[item] <= self.word_freq[w]:
