@@ -35,6 +35,7 @@ Run the included 'test.py' file:
 
 ### Discussion ###
 
+* What is a word? An alphanumeric, numeric or alpha set of characters (minium 1), seperated by spaces, and puncuation is removed.
 * In case of a tie between words, the word visited last (closest of EOF) will be bumped up in the list.
 * Instead of sorting the frequencies at the end, a top 10 list keeps track of the most frequently occurring words
 * For each word, up to 10 comparisons can be made, and the list needs to be shifted accordingly when an insert occurs
@@ -42,6 +43,7 @@ Run the included 'test.py' file:
 * Another approach would be to sort at the end, and pick off the top 10 items, this would have a run time of  O: n*log(n) + n, which reduces to 0: n*log(n)
 * Both approaches have a worst case space complexity of 0: n, if each word occurs only once.
 * The assumption is that all the words can fit into memory, if this wasn't the case, reloads & preliminary writes to disk would be considered
+
 
 
 ### Install Globally ###
