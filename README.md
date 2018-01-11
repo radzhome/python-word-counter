@@ -35,7 +35,7 @@ Run the included 'test.py' file:
 
 ### Discussion ###
 
-* What is a word? An alphanumeric, numeric or alpha set of characters (minium 1), seperated by spaces, and puncuation is removed. Hyphenated words count as 1. Punctuation such as `,\*"'?!:` needs to be stripped away.
+* What is a word? An alphanumeric, numeric or alpha set of characters (minium 1), seperated by spaces, and puncuation is removed. Hyphenated words count as 1 i.e. `one-two` is 1 word, but `one two` is two. Punctuation such as `,\/*"'?!:` needs to be stripped away. Another scenario could be that we replace certain chars to make 1+ words out of a single word.
 * In case of a tie between words, the word visited last (closest of EOF) will be bumped up in the list.
 * Instead of sorting the frequencies at the end, a top 10 list keeps track of the most frequently occurring words
 * For each word, up to 10 comparisons can be made, and the list needs to be shifted accordingly when an insert occurs
