@@ -16,7 +16,7 @@ You application should be run from the command line using a single command. For 
 
     $	sbt	"run	input.txt"
 
-Please include a test suite demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application. DO NOT use `collections.Counter` for this, please define your own counter class instead. Please use python3 and best practices to write your solution. Please include an explanation of your solution and any assumptions you made. 
+Please include a test suite demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application. DO NOT use `collections.Counter` for this, please define your own counter class instead. Please use python3 and best practices (PEP-8) to write your solution. Please include an explanation of your solution and any assumptions you made. 
 
 
 ### Usage ###
