@@ -30,6 +30,11 @@ Run the 'test.py' test suite file:
 
     ./test.py
 
+### Install Globally ###
+
+No setup is required. Either use the provided 'word_counter.py', or install and import the module:
+
+    $ [sudo] setup.py install
 
 ### Discussion ###
 
@@ -42,13 +47,13 @@ Run the 'test.py' test suite file:
 * Both approaches have a worst case space complexity of 0: n, if each word occurs only once.
 * The assumption is that all the words can fit into memory, if this wasn not the case, reloads & preliminary writes to disk would be considered
 
+### Input files ###
+
+ 1. TODO
+ 1. TODO
+ 1. TODO
 
 
-### Install Globally ###
-
-No setup is required. Either use the provided 'word_counter.py', or install and import the module:
-
-    $ [sudo] setup.py install
 
 
 
