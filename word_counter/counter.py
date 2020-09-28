@@ -39,4 +39,4 @@ class WordCounter(object):
 
     def display_top_10(self):
         for word in self.top_10:
-            print word, self.word_freq[word]
+            print(word, self.word_freq[word])
