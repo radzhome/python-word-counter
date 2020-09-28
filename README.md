@@ -19,14 +19,14 @@ Please include a test suite (test.py) demonstrating the correctness of your solu
 
 ### Usage ###
 
-Run the included 'word_counter.py' file:
+Run the main 'word_counter.py' file:
 
     ./word_counter.py samples/test1.txt
 
 
 ### Tests ###
 
-Run the included 'test.py' file:
+Run the 'test.py' test suite file:
 
     ./test.py
 
