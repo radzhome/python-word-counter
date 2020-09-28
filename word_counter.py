@@ -17,6 +17,6 @@ if __name__ == "__main__":
     file_path = args.file_path
 
     wc = WordCounter(file_path)
-    print "Top 10 Words:"
+    print("Top 10 Words:")
     wc.display_top_10()
-    print "Total Words: {}".format(wc.total_words)
+    print("Total Words: {}".format(wc.total_words))

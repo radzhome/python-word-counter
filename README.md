@@ -45,15 +45,25 @@ No setup is required. Either use the provided 'word_counter.py', or install and 
 * This approach has a worst case scenario runtime of 0: n + 10n, which reduces to 0: n
 * Another approach would be to sort at the end, and pick off the top 10 items, this would have a run time of  O: n*log(n) + n, which reduces to 0: n*log(n)
 * Both approaches have a worst case space complexity of 0: n, if each word occurs only once.
-* The assumption is that all the words can fit into memory, if this wasn not the case, reloads & preliminary writes to disk would be considered
+* The assumption is that all the words can fit into memory, if this was not the case, reloads & preliminary writes to disk would be considered
 
-### Input files ###
+### Input files testN.txt ###
 
- 1. TODO
- 1. TODO
- 1. TODO
+ 1. ip-sum x7 (different cases, hyphenated word), eu 8x (hyphenated case)
+ 1. punctuation test + case sensitivity, this x5
+ 1. ten x6 due to cases
+ 1. single word, 1 count
+ 1. 0 word case
+ 1. Large file, will it finish or crash?
+ 1. Number word count, 69 x4 , 123 x 3
 
 
+### Typical issues ###
+
+ * Hyphenated words counted as multiple words vs one word, shoudl be one
+ * Same word different cases or before comma, period, case sensitivity and punctuation
+ * Large files, memory issues
+ * 
 
 
 
