@@ -14,7 +14,8 @@ You application should be run from the command line using a single command. For 
 
     $	python ./word_counter.py input.txt
 
-Please include a test suite (test.py) demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application. DO NOT use `collections.Counter` for this, please define your own counter class instead. Please use python3 and best practices (PEP-8) to write your solution. Please include an explanation of your solution and any assumptions you made. Using an IDE like PyCharm is recommended, but not required.
+Please include a test suite (test.py) demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application. 
+DO NOT use `collections.Counter` or any built in sorting for this, please define your own counter class instead. Please use python3 and best practices (PEP-8) to write your solution. Please include an explanation of your solution and any assumptions you made. Using an IDE like PyCharm is recommended, but not required.
 
 
 ### Usage ###
