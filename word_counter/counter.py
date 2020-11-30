@@ -41,7 +41,6 @@ class WordCounter(object):
                         del self.top_words[self.top_words.index(word)]
                     self.top_words.insert(index, word)
                     del self.top_words[KEEP_TOP_WORDS:]
-                    print(self.top_words)
                     break
                 elif len(self.top_words) < KEEP_TOP_WORDS and word not in self.top_words:
                     # Case where top 10 not full and word not in top 10 already
