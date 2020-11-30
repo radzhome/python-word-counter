@@ -3,6 +3,7 @@
 import argparse
 
 from word_counter.counter import WordCounter
+from word_counter.counter import KEEP_TOP_WORDS
 
 
 if __name__ == "__main__":
@@ -17,6 +18,6 @@ if __name__ == "__main__":
     file_path = args.file_path
 
     wc = WordCounter(file_path)
-    print("Top 10 Words:")
-    wc.display_top_10()
+    print(f"Top {KEEP_TOP_WORDS} Words:")
+    wc.display_top_words()
     print("Total Words: {}".format(wc.total_words))

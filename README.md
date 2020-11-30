@@ -14,7 +14,7 @@ You application should be run from the command line using a single command. For 
 
     $	python ./word_counter.py input.txt
 
-Please include a test suite (test.py) demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application. 
+Please include a test suite (tests.py) demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application. 
 DO NOT use `collections.Counter` or any built in sorting for this, please define your own counter class instead. Please use python3 and best practices (PEP-8) to write your solution. Please include an explanation of your solution and any assumptions you made. Using an IDE like PyCharm is recommended, but not required.
 
 
@@ -27,9 +27,9 @@ Run the main 'word_counter.py' file:
 
 ### Tests ###
 
-Run the 'test.py' test suite file:
+Run the 'tests.py' test suite file:
 
-    ./test.py
+    ./tests.py
 
 ### Install Globally ###
 
@@ -55,7 +55,7 @@ No setup is required. Either use the provided 'word_counter.py', or install and 
  1. ten x6 due to cases
  1. single word, 1 count
  1. 0 word case
- 1. Large file, will it finish or crash? (no longer case with py3?)
+ 1. Large file, will it finish or crash? (no longer case with py3?)  (run with time -v or /usr/bin/time -l in osx) - See "maximum resident set size"
  1. Numbers - Number word count, 69 x4 , 123 x 3 .. Numbers always same case
  1. hyphenated words different from non-hyphenated - not implementing a dictionary so we should not base word boundaries based on definitions. If so is call made to api to distinguish the words?
 

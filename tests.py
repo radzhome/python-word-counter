@@ -25,8 +25,8 @@ from word_counter.counter import WordCounter
 
 # Lorem ipsum file with hyphenated words
 wc = WordCounter("samples/test1.txt")
-assert wc.top_10 == ['sed', 'quis', 'eu', 'ip-sum', 'vel', 'et', 'ultricies', 'nunc', 'tortor', 'leo'], wc.top_10
-assert wc.total_words == 319, wc.total_words
+assert wc.top_10 == ['sed', 'ipsum', 'quis', 'eu', 'ip-sum', 'vel', 'et', 'ultricies', 'nunc', 'tortor'], wc.top_10
+assert wc.total_words == 326, wc.total_words
 
 # Test basic punctuation
 wc = WordCounter("samples/test2.txt")
@@ -58,6 +58,10 @@ wc = WordCounter("samples/test7.txt")
 assert wc.top_10 == ['69', '123', '567', '67', '45', '345'], wc.top_10
 assert wc.total_words == 12
 
+# Test hyphens
+wc = WordCounter("samples/test8.txt")
+assert wc.top_10 == ['winter', 'win-ter'], wc.top_10
+assert wc.total_words == 12, wc.total_words
 
 # Uncomment to run doc-test
 # doctest.testmod()
