@@ -50,13 +50,14 @@ No setup is required. Either use the provided 'word_counter.py', or install and 
 
 ### Input files testN.txt ###
 
- 1. ip-sum x7 (different cases, hyphenated word), eu 8x (hyphenated case)
+ 1. ip-sum x7 (different cases, hyphenated word), eu 8x (hyphenated case), ipsum different word
  1. punctuation test + case sensitivity, this x5
  1. ten x6 due to cases
  1. single word, 1 count
  1. 0 word case
- 1. Large file, will it finish or crash?
- 1. Number word count, 69 x4 , 123 x 3
+ 1. Large file, will it finish or crash? (no longer case with py3?)
+ 1. Numbers - Number word count, 69 x4 , 123 x 3 .. Numbers always same case
+ 1. hyphenated words different from non-hyphenated - not implementing a dictionary so we should not base word boundaries based on definitions. If so is call made to api to distinguish the words?
 
 
 ### Typical issues ###
