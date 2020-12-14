@@ -17,7 +17,7 @@ You application should be run from the command line using a single command. For 
 Please include a test suite (tests.py) demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application. 
 DO NOT use `collections.Counter` or any built in sorting for this, please define your own counting and sorting instead. Please use python3 and best practices (PEP-8) to write your solution. Please include an explanation of your solution and any assumptions you made. Using an IDE like PyCharm is recommended, but not required.
 
-The output should look as follows:
+Please name your main executable `word_counter.py`. The output should look as follows:
 
     Top 10 Words:
     the 78735
