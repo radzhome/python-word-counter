@@ -11,7 +11,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Word counting program, counts frequency of words in a file.')
     parser.add_argument("file_path")
 
-    file_path = None
     args = parser.parse_args()
     if 'file_path' in args:
         file_path = True

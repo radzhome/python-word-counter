@@ -15,8 +15,22 @@ You application should be run from the command line using a single command. For 
     $	python ./word_counter.py input.txt
 
 Please include a test suite (tests.py) demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application. 
-DO NOT use `collections.Counter` or any built in sorting for this, please define your own counter class instead. Please use python3 and best practices (PEP-8) to write your solution. Please include an explanation of your solution and any assumptions you made. Using an IDE like PyCharm is recommended, but not required.
+DO NOT use `collections.Counter` or any built in sorting for this, please define your own counting and sorting instead. Please use python3 and best practices (PEP-8) to write your solution. Please include an explanation of your solution and any assumptions you made. Using an IDE like PyCharm is recommended, but not required.
 
+The output should look as follows:
+
+    Top 10 Words:
+    the 78735
+    of 39973
+    and 38068
+    to 28579
+    in 21715
+    a 20810
+    he 12114
+    that 12020
+    was 11361
+    his 10007
+    Total Words: 1095695
 
 ### Usage ###
 
@@ -58,14 +72,15 @@ No setup is required. Either use the provided 'word_counter.py', or install and 
  1. Large file, will it finish or crash? (no longer case with py3?)  (run with time -v or /usr/bin/time -l in osx) - See "maximum resident set size"
  1. Numbers - Number word count, 69 x4 , 123 x 3 .. Numbers always same case
  1. hyphenated words different from non-hyphenated - not implementing a dictionary so we should not base word boundaries based on definitions. If so is call made to api to distinguish the words?
+ 1. Input with file that does not exist, see if error is clear
 
 
 ### Typical issues ###
 
- * Hyphenated words counted as multiple words vs one word, shoudl be one
+ * Hyphenated words counted as multiple words vs one word, should be one
  * Same word different cases or before comma, period, case sensitivity and punctuation
  * Large files, memory issues
- * 
+ * Input with non-existent file FileNotFound or invalid file i.e jpeg - UnicodeDecodeError
 
 
 
