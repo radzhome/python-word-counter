@@ -10,7 +10,7 @@ Create a simple application that takes a UTF-8 plain-text file as input and outp
 
 * Ten most common words and number of occurrences for each
 
-You application should be run from the command line using a single command with one parameter. E.g.
+Your application should be run from the command line using a single command with one parameter. E.g.
 
     $	python ./word_counter.py input.txt
 
