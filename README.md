@@ -10,14 +10,14 @@ Create a simple application that takes a UTF-8 plain-text file as input and outp
 
 * Ten most common words and number of occurrences for each
 
-You application should be run from the command line using a single command. For example:
+You application should be run from the command line using a single command with one parameter. E.g.
 
     $	python ./word_counter.py input.txt
 
 Please include a test suite (tests.py) demonstrating the correctness of your solution and a README file clearly explaining how to build, run and test your application. 
-DO NOT use `collections.Counter` or any built in sorting for this, please define your own counting and sorting instead. Please use python3 and best practices (PEP-8) to write your solution. Please include an explanation of your solution and any assumptions you made. Using an IDE like PyCharm is recommended, but not required.
+DO NOT use `collections.Counter` or any built in sorting for this, please define your own counting and sorting instead. Please use python3 and best practices (PEP-8) to write your solution to the best of your ability. Please include an explanation of your solution and any assumptions you made. Using an IDE like PyCharm is recommended, but not required. Please avoid including third party packages in your solution.
 
-Please name your main executable `word_counter.py`. The output should look as follows:
+Please name your main executable `word_counter.py` and allow for a single argument as input. Please make your output look as follows:
 
     Top 10 Words:
     the 78735
